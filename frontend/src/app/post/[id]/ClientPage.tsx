@@ -32,8 +32,6 @@ export default function ClinetPage({
       return;
     }
 
-    const num = 10;
-
     const response = await client.DELETE("/api/v1/posts/{id}", {
       credentials: "include",
       params: {
