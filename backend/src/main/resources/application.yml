@@ -77,8 +77,8 @@ custom:
   appName: myProjectApp
   prod:
     domain: my-project-app.site
-    backUrl: "https://api.${custom.appName}.${custom.prod.domain}"
-    frontUrl: "https://www.${custom.appName}.${custom.prod.domain}"
+    backUrl: "https://api.${custom.prod.domain}"
+    frontUrl: "https://www.${custom.prod.domain}"
 
   dev:
     domain: localhost
