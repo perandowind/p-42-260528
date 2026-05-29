@@ -93,4 +93,4 @@ custom:
   jwt:
     expire-seconds: "#{60 * 30}"
   genFile:
-    dirPath: c:/temp/glog_dev
+    dirPath: c:/temp/glog_dev\
